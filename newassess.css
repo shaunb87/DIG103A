@@ -1,0 +1,582 @@
+h1 {
+  font-family: verdana;
+  color: black;
+  font-size: 60px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+h2 {
+  font-family: verdana;
+  color: white;
+  font-size: 40px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+h3 {
+  font-family: verdana;
+  color: aliceblue;
+  font-size: 30px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.main {
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+h4 {
+  color: darkorange;
+  font-size: 16px;
+  font-family: verdana;
+}
+.gallerybox {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+  align-items: center;
+}
+.gallerybox:hover img {
+  opacity:0.7;
+  background-color: blueviolet;
+
+}
+.photobox{
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+  align-items: center;
+}
+.picturebox:hover img {
+  opacity:0.7;
+  background-color: orange;
+}
+.header {
+  background-color: blueviolet;
+  height:200px;
+  width:100%;
+  color: antiquewhite;
+  font-size: 26px;
+  font-family: verdana;
+}
+
+.imagebox img  {
+  display: flex;
+  align-items: center;
+  float: left;
+
+}
+.photobox {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+  align-items: center;
+}
+.photobox img {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+  align-items: center;
+}
+.imagebox:hover img{
+  opacity: 0.5;
+  border: solid 2px aqua
+}
+.photobox:hover img{
+  opacity: 0.5;
+  border: solid 2px aqua
+}
+
+.slideshowbox {
+  height: 200px;
+  width: 500px;
+  margin-left:25%;
+  margin-right: 25%;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.menu {
+  height: 100px;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  height:100px;
+  width: 24%;
+  background-color: blueviolet;
+  display: flex;
+  float: left;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 16px;
+  font-family: verdana;
+  color: white;
+}
+.aboutbox {
+  height: 100px;
+  width: 300px;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: purple;
+
+}
+
+.button:hover {
+  background-color: purple;
+  opacity: 0.7;
+}
+
+
+.footer1 {
+  background-color: darkorchid;
+  color: beige;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+}
+.footer1:hover {
+  background-color: darkorange;
+
+}
+
+.contactform {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+.contactform input {
+  background-color: aqua;
+  color: black;
+  font-size: 16px;
+  height: 60px;
+  width: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.contactform input:hover {
+  background-color: blueviolet;
+}
+
+.radio input {
+height: 50px;
+width: 50px;
+background-color: purple;
+}
+.gallery  {
+  margin: 0 auto;
+  position: relative;
+  width: 601px;
+
+}
+.figcaption {
+  color: white;
+  font-size: 16px;
+  font-family: verdana
+}
+.gallery img {
+  margin: 0 auto;
+  display: block;
+}
+.thumbs  {
+  overflow: hidden;
+  width: 524px;
+  margin: 30px auto 0}
+}
+.thumbs img {
+  float: left;
+  margin: 1px;
+  cursor: pointer;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation li {
+  float: left;
+  width: 150px;
+  position: relative;
+}
+.navigation li a {
+  background-color: blueviolet;
+  color: white;
+  display: block;
+  padding: 8px 7px 8px 7px;
+  border-top: 1px solid aqua;
+  text-align: center;
+}
+.navigation ul {
+  display : none;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  list-style: none;
+  border-bottom: 3px aqua;
+}
+.navigation ul li {
+  width: 150px;
+  float: left;
+  border-top: none;
+}
+.navigation ul a {
+  display: block;
+  height: 15px;
+  padding: 8px 7px 13px 7px;
+  color: white;
+  border-top: none;
+  border-bottom: 1px dashed aqua
+}
+.socialbox {
+  height:100px;
+  width: 23%;
+  background color: blueviolet;
+  float: left;
+}
+/*Tablet size*/
+@media screen and (max-width: 1050px) {
+  .main {
+    background-color: blueviolet;
+  }
+  .footer {
+    background-color: orange;
+    width: 100%;
+    color: blueviolet;
+  }
+  .gallerybox {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+  }
+  .gallerybox:hover img {
+    opacity:0.7;
+    background-color: blue;
+
+  }
+  .photobox{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    align-items: center;
+  }
+  .picturebox:hover img {
+    opacity:0.7;
+    background-color: blue;
+  }
+  .header {
+    background-color: darkblue;
+    height:200px;
+    width:100%;
+    color: antiquewhite;
+    font-size: 2.5rem;
+    font-family: verdana;
+  }
+
+  .imagebox img  {
+    display: flex;
+    align-items: center;
+    float: left;
+
+  }
+  .photobox {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+  }
+  .photobox img {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+  }
+  .imagebox:hover img{
+    opacity: 0.5;
+    border: solid 2px aqua
+  }
+  .photobox:hover img{
+    opacity: 0.5;
+    border: solid 2px aqua
+  }
+
+  .slideshowbox {
+    height: 300px;
+    width: 50%;
+    margin-left:10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+  }
+
+  .menu {
+    height: 100px;
+    width: 100%;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+  }
+
+  .button {
+    height:100px;
+    width: 24%;
+    background-color: blue;
+    display: flex;
+    float: left;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: verdana;
+    color: white;
+  }
+  .aboutbox {
+    height: 100px;
+    width: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: darkblue;
+
+  }
+
+  .button:hover {
+    background-color: blue;
+    opacity: 0.7;
+  }
+
+
+  .footer1 {
+    background-color: darkblue;
+    color: beige;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+  }
+  .footer1:hover {
+    background-color: darkblue;
+
+  }
+
+  .contactform {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+  .contactform input {
+    background-color: darkorchid;
+    color: black;
+    font-size: 16px;
+    height: 60px;
+    width: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .contactform input:hover {
+    background-color: blue;
+  }
+
+  .radio input {
+  height: 50px;
+  width: 50px;
+  background-color: darkorchid;
+  }
+  .socialbox {
+    height:100px;
+    width: 23%;
+    background color: darkblue;
+    float: left;
+}
+/*Mobile size*/
+@media screen and (max-width: 640px) {
+  .main {
+    background-color: blue;
+    float: left;
+
+  }
+  .gallerybox {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    align-items: center;
+    float: left;
+  }
+  .gallerybox:hover img {
+    opacity:0.7;
+    background-color: orange;
+    float: left;
+  }
+  .photobox{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    align-items: center;
+    float: left;
+  }
+  .picturebox:hover img {
+    opacity:0.7;
+    background-color: orange;
+    float: left;
+  }
+  .header {
+    background-color: orange;
+    height:200px;
+    width:100%;
+    color: antiquewhite;
+    font-size: 26px;
+    font-family: verdana;
+    float: left;
+  }
+
+  .imagebox img  {
+    display: flex;
+    align-items: center;
+    float: left;
+
+  }
+  .photobox {
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    float: left;
+  }
+  .photobox img {
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    float: left;
+  }
+  .imagebox:hover img{
+    opacity: 0.5;
+    border: solid 2px darkgoldenrod
+  }
+  .photobox:hover img{
+    opacity: 0.5;
+    border: solid 2px darkgoldenrod
+  }
+
+  .slideshowbox {
+    height: 200px;
+    width: 100%;
+    margin-left:0%;
+    margin-right: 0%;
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+    float: left;
+  }
+/*<May be redundant for phone>*/
+  .menu {
+    height: 100px;
+    width: 100%;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+  }
+
+  .button {
+    height:100px;
+    width: 24%;
+    background-color: blueviolet;
+    display: flex;
+    float: left;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    font-family: verdana;
+    color: white;
+  }
+  /*^May be redundant for phone^*/
+  .aboutbox {
+    height: 100px;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: darkorange;
+    float: left;
+
+  }
+
+  .button:hover {
+    background-color: darkgoldenrod;
+    opacity: 0.7;
+  }
+
+
+  .footer1 {
+    background-color: orange;
+    color: beige;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 1.75rem;
+    float: left;
+  }
+  .footer1:hover {
+    background-color: darkgoldenrod;
+
+  }
+
+  .contactform {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+  .contactform input {
+    background-color: darkgoldenrod;
+    color: black;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 400px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .contactform input:hover {
+    background-color: orange;
+  }
+
+  .radio input {
+  height: 50px;
+  width: 50px;
+  background-color: darkorange;
+  float: left;
+  }
+  .socialbox {
+    height:100px;
+    width: 100%;
+    background color: darkorange;
+    float; left
+}
