@@ -6,7 +6,7 @@ wlh = window.location.hash.replace('#img', '');
 if (!isNaN(parseInt(wlh))) {
     $('#largeImage').attr('src,' $('#thumbs img').eq(wlh-1).attr('src').replace('thumb','large'));
 }
-
+//created by Marcel, NZ from JsFiddle//
 $)'.navigation li').hover (
   function () {
     $('ul', this).slideDown('fast');
@@ -15,3 +15,4 @@ function () {
   $('ul', this).slideUp('fast')
 }
 );
+//created by Elvis Sedic Spletodrom-Slovenia from JsFiddle//
